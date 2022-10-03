@@ -1,14 +1,35 @@
 <?php
 
+
+//test con nuevo corso
+$allowedOrigins = array(
+    'https://insaback-production.up.railway.app/',  //laravel api dominio
+    'http://localhost:4200' //dominio del cliente
+);
+
+if(isset($_SERVER['HTTP_ORIGIN']) && $_SERVER['HTTP_ORIGIN']!= '' ){
+    foreach($allowedOrigins as $allowedOrigins){
+        if(preg_match('#' . $allowedOrigins . '#', $_SERVER['HTTP_ORIGIN'])){
+            header('Access-Control-Allow-Origin: '.$_SERVER['HTTP_ORIGIN']);
+            header('Access-Control-Allow_Credentials: true');
+            header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+            header('Access-Control-Max-Age: 1728000');
+            header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Authorization");
+            break;
+
+        }
+    }
+}
+
 //SE CONFIGURAN LOS CORS
-header('Access-Control-Allow-Origin: *');
+/*header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Authorization");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 $method = $_SERVER['REQUEST_METHOD'];
 if($method == "OPTIONS") {
     die();
-}
+}*/
 
 
 
