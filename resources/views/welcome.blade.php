@@ -81,17 +81,23 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    API-SALUD
+                    API-INSA
+                </div>
+                <p>Información de la Salud para Unidades Médicas Jurisdiccionales</p>
+                <h5 class="card-text">Version 1.1</h5>
+                <p class="card-text">Derechos Reservados </p>
+
+                <div>
+                    <p>L.S.C. Francisco de Jesús Quezada Villegas</p>  
+                    © Copyright 2022  
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.facebook.com/coudder09/">Facebook</a>
+                    <a href="https://twitter.com/_coudder">Twitter</a>
+                    <a href="mailto:coudder@gmail.com">Email</a>
+                    <a href="https://www.instagram.com/_couder/">Instagram</a>
+                    <a href="https://github.com/Coudder">GitHub</a>
                 </div>
             </div>
         </div>
