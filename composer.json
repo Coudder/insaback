@@ -51,7 +51,8 @@
             "App\\": "app/"
         },
         "files": [
-            "app/Helpers/jwtAuth.php"
+            "app/Helpers/jwtAuth.php",
+            "app/Helpers/jwtAuthu.php"
         ],
         "classmap": [
             "database/seeds",
