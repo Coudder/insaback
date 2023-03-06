@@ -4,7 +4,7 @@
 //test con nuevo corso
 $allowedOrigins = array(
     'https://insaback-production.up.railway.app/',  //laravel api dominio
-    'http://localhost:4200', //dominio del cliente
+    'http://localhost:4200/', //dominio del cliente
     'https://camujvi.netlify.app/'   
 );
 
