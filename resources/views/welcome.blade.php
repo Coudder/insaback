@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>API-SALUD</title>
+        <title>API-CAMU</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,15 +81,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    API-INSA
+                    API-CAMU
                 </div>
-                <p>Información de la Salud para Unidades Médicas Jurisdiccionales</p>
+                <p>Información Programa Cáncer de la Mujer para Unidades Médicas Jurisdiccionales</p>
+                <p>Jurisdiccion VI - Tamazunchale</p>
                 <h5 class="card-text">Version 1.1</h5>
                 <p class="card-text">Derechos Reservados </p>
 
                 <div>
-                    <p>L.S.C. Francisco de Jesús Quezada Villegas</p>  
-                    © Copyright 2022  
+                    <p>L.S.C. Francisco de Jesús Quezada Villegas</p>
+                    <p>By Couder</p>
+                    <p>© Copyright 2024  </p>
                 </div>
 
                 <div class="links">
